@@ -177,42 +177,50 @@ nav ul li{
 .dropdown:hover .submenu{
     display: block;
 }
-.about {
-    padding: 60px 20px;
-    background: #f4f4f4;
-    text-align: center;
+.about{
+    padding: 80px 20px;
+    background: #f5f5f5;
 }
 
-.about h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.about-content {
-    max-width: 800px;
+.container{
+    max-width: 900px;
     margin: auto;
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.about-content h3 {
+.about h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.about-content{
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-content h3{
+    text-align: center;
     color: #007bff;
     margin-bottom: 15px;
 }
 
-.about-content p {
+.about-content p{
     line-height: 1.8;
-    color: #555;
 }
 
-.info {
+.info{
     margin-top: 20px;
 }
 
-.info p {
-    margin: 10px 0;
+.info p{
     font-size: 18px;
+    margin: 15px 0;
+}
+
+.info i{
+    color: #007bff;
+    width: 30px;
+    font-size: 20px;
 }
